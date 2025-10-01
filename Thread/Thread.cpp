@@ -8,6 +8,7 @@
 #include <mutex>
 #include <Windows.h>
 
+int s;
 int g_counter = 0;
 int g_input = 0;
 std::mutex g_mutex;
